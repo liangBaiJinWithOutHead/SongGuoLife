@@ -1,0 +1,6 @@
+framework module Pods_SongGuoLife {
+  umbrella header "Pods-SongGuoLife-umbrella.h"
+
+  export *
+  module * { export * }
+}

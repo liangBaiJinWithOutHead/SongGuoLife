@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77FF61A870A49651FAB7E796 /* Pods_SongGuoLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5497897896FA9075AF549B3 /* Pods_SongGuoLife.framework */; };
+		E40D51571D3F973A00F56FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40D51561D3F973A00F56FA8 /* Assets.xcassets */; };
+		E40DA98C1D3533600091D1F7 /* WZHChoicennessItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DA98B1D3533600091D1F7 /* WZHChoicennessItem.swift */; };
+		E42F8E8E1D468C2D0054F807 /* WZHDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F8E8C1D468C2D0054F807 /* WZHDetailViewController.swift */; };
+		E42F8E911D468C680054F807 /* WZHDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42F8E901D468C680054F807 /* WZHDetailViewController.xib */; };
+		E4503C581D3528D300F90B1A /* WZHActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C3A1D3528D300F90B1A /* WZHActivityViewController.swift */; };
+		E4503C591D3528D300F90B1A /* WZHChoicenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C3F1D3528D300F90B1A /* WZHChoicenessViewController.swift */; };
+		E4503C5A1D3528D300F90B1A /* WZHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C441D3528D300F90B1A /* WZHMainViewController.swift */; };
+		E4503C5B1D3528D300F90B1A /* WZHMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C491D3528D300F90B1A /* WZHMeViewController.swift */; };
+		E4503C5C1D3528D300F90B1A /* WZHMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4503C4A1D3528D300F90B1A /* WZHMeViewController.xib */; };
+		E4503C5D1D3528D300F90B1A /* WZHLaunchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4503C4F1D3528D300F90B1A /* WZHLaunchView.storyboard */; };
+		E4503C5E1D3528D300F90B1A /* WZHLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C501D3528D300F90B1A /* WZHLaunchViewController.swift */; };
+		E4503C5F1D3528D300F90B1A /* WZHSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C531D3528D300F90B1A /* WZHSearchViewController.swift */; };
+		E4503C601D3528D300F90B1A /* WZHHttpTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C571D3528D300F90B1A /* WZHHttpTools.swift */; };
+		E4503C631D352FEC00F90B1A /* WZHChoicennessViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4503C611D352FEC00F90B1A /* WZHChoicennessViewCell.swift */; };
+		E4503C641D352FEC00F90B1A /* WZHChoicennessViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4503C621D352FEC00F90B1A /* WZHChoicennessViewCell.xib */; };
+		E45B27331D33D71B00A9422C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45B27321D33D71B00A9422C /* AppDelegate.swift */; };
+		E45B27531D34851700A9422C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45B27521D34851700A9422C /* LaunchScreen.storyboard */; };
+		E4C0BE2E1D38ACAC00A0EF94 /* WZHSearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C0BE2D1D38ACAC00A0EF94 /* WZHSearchItem.swift */; };
+		E4C0BE321D38D03E00A0EF94 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C0BE311D38D03E00A0EF94 /* types.plist */; };
+		E4C29E1A1D37842600F2C5D6 /* WZHStaticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C29E191D37842600F2C5D6 /* WZHStaticViewCell.swift */; };
+		E4C29E1C1D37843500F2C5D6 /* WZHBottomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C29E1B1D37843500F2C5D6 /* WZHBottomViewCell.swift */; };
+		E4C29E441D381CD000F2C5D6 /* WZHSearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C29E431D381CD000F2C5D6 /* WZHSearchViewController.storyboard */; };
+		E4C29E471D38200B00F2C5D6 /* WZHTypeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C29E451D38200B00F2C5D6 /* WZHTypeViewCell.swift */; };
+		E4E5281F1D3A6CA600FB9E6A /* WZHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5281E1D3A6CA600FB9E6A /* WZHBaseViewController.swift */; };
+		E4E528221D3A7A6800FB9E6A /* WZHActivityViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E528201D3A7A6800FB9E6A /* WZHActivityViewCell.swift */; };
+		E4E528231D3A7A6800FB9E6A /* WZHActivityViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E528211D3A7A6800FB9E6A /* WZHActivityViewCell.xib */; };
+		E4E528251D3A7AD300FB9E6A /* WZHActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E528241D3A7AD300FB9E6A /* WZHActivityItem.swift */; };
+		E4FE89E21D38FC04003DF200 /* WZHLifeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE89E11D38FC04003DF200 /* WZHLifeItem.swift */; };
+		E4FE89E41D3907E9003DF200 /* WZHSubjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE89E31D3907E9003DF200 /* WZHSubjectItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00CF49188B7C688C78EDD8B /* Pods-SongGuoLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongGuoLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SongGuoLife/Pods-SongGuoLife.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6438F9E56A677320A418EE /* Pods-SongGuoLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongGuoLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SongGuoLife/Pods-SongGuoLife.release.xcconfig"; sourceTree = "<group>"; };
+		E40D51561D3F973A00F56FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40DA98B1D3533600091D1F7 /* WZHChoicennessItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHChoicennessItem.swift; sourceTree = "<group>"; };
+		E42F8E8C1D468C2D0054F807 /* WZHDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHDetailViewController.swift; sourceTree = "<group>"; };
+		E42F8E901D468C680054F807 /* WZHDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZHDetailViewController.xib; sourceTree = "<group>"; };
+		E4503C3A1D3528D300F90B1A /* WZHActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHActivityViewController.swift; sourceTree = "<group>"; };
+		E4503C3F1D3528D300F90B1A /* WZHChoicenessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHChoicenessViewController.swift; sourceTree = "<group>"; };
+		E4503C441D3528D300F90B1A /* WZHMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHMainViewController.swift; sourceTree = "<group>"; };
+		E4503C491D3528D300F90B1A /* WZHMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHMeViewController.swift; sourceTree = "<group>"; };
+		E4503C4A1D3528D300F90B1A /* WZHMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZHMeViewController.xib; sourceTree = "<group>"; };
+		E4503C4F1D3528D300F90B1A /* WZHLaunchView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WZHLaunchView.storyboard; sourceTree = "<group>"; };
+		E4503C501D3528D300F90B1A /* WZHLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHLaunchViewController.swift; sourceTree = "<group>"; };
+		E4503C531D3528D300F90B1A /* WZHSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHSearchViewController.swift; sourceTree = "<group>"; };
+		E4503C571D3528D300F90B1A /* WZHHttpTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHHttpTools.swift; sourceTree = "<group>"; };
+		E4503C611D352FEC00F90B1A /* WZHChoicennessViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHChoicennessViewCell.swift; sourceTree = "<group>"; };
+		E4503C621D352FEC00F90B1A /* WZHChoicennessViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZHChoicennessViewCell.xib; sourceTree = "<group>"; };
+		E45B272F1D33D71B00A9422C /* SongGuoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongGuoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45B27321D33D71B00A9422C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E45B273E1D33D71B00A9422C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45B27521D34851700A9422C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4C0BE2D1D38ACAC00A0EF94 /* WZHSearchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHSearchItem.swift; sourceTree = "<group>"; };
+		E4C0BE311D38D03E00A0EF94 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
+		E4C29E191D37842600F2C5D6 /* WZHStaticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHStaticViewCell.swift; sourceTree = "<group>"; };
+		E4C29E1B1D37843500F2C5D6 /* WZHBottomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHBottomViewCell.swift; sourceTree = "<group>"; };
+		E4C29E431D381CD000F2C5D6 /* WZHSearchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WZHSearchViewController.storyboard; sourceTree = "<group>"; };
+		E4C29E451D38200B00F2C5D6 /* WZHTypeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHTypeViewCell.swift; sourceTree = "<group>"; };
+		E4E5281E1D3A6CA600FB9E6A /* WZHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHBaseViewController.swift; sourceTree = "<group>"; };
+		E4E528201D3A7A6800FB9E6A /* WZHActivityViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHActivityViewCell.swift; sourceTree = "<group>"; };
+		E4E528211D3A7A6800FB9E6A /* WZHActivityViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZHActivityViewCell.xib; sourceTree = "<group>"; };
+		E4E528241D3A7AD300FB9E6A /* WZHActivityItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHActivityItem.swift; sourceTree = "<group>"; };
+		E4FE89E11D38FC04003DF200 /* WZHLifeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHLifeItem.swift; sourceTree = "<group>"; };
+		E4FE89E31D3907E9003DF200 /* WZHSubjectItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZHSubjectItem.swift; sourceTree = "<group>"; };
+		F5497897896FA9075AF549B3 /* Pods_SongGuoLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SongGuoLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45B272C1D33D71B00A9422C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FF61A870A49651FAB7E796 /* Pods_SongGuoLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A195B9931DFFCC6473E8687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5497897896FA9075AF549B3 /* Pods_SongGuoLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750743F129495B1269B47B20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B00CF49188B7C688C78EDD8B /* Pods-SongGuoLife.debug.xcconfig */,
+				CD6438F9E56A677320A418EE /* Pods-SongGuoLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4503C371D3528D300F90B1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4E5281D1D3A6B7100FB9E6A /* WZHBaseController */,
+				E4503C421D3528D300F90B1A /* Main */,
+				E4503C561D3528D300F90B1A /* Tools */,
+				E4503C3D1D3528D300F90B1A /* Choicenness(精选) */,
+				E4503C511D3528D300F90B1A /* Search(探索) */,
+				E4503C381D3528D300F90B1A /* Activity(活动) */,
+				E4503C471D3528D300F90B1A /* Me(我) */,
+				E4503C4D1D3528D300F90B1A /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E4503C381D3528D300F90B1A /* Activity(活动) */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C391D3528D300F90B1A /* Controller */,
+				E4503C3B1D3528D300F90B1A /* Model */,
+				E4503C3C1D3528D300F90B1A /* View */,
+			);
+			path = "Activity(活动)";
+			sourceTree = "<group>";
+		};
+		E4503C391D3528D300F90B1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C3A1D3528D300F90B1A /* WZHActivityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4503C3B1D3528D300F90B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4E528241D3A7AD300FB9E6A /* WZHActivityItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4503C3C1D3528D300F90B1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4E528201D3A7A6800FB9E6A /* WZHActivityViewCell.swift */,
+				E4E528211D3A7A6800FB9E6A /* WZHActivityViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4503C3D1D3528D300F90B1A /* Choicenness(精选) */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C3E1D3528D300F90B1A /* Controller */,
+				E4503C401D3528D300F90B1A /* Model */,
+				E4503C411D3528D300F90B1A /* View */,
+			);
+			path = "Choicenness(精选)";
+			sourceTree = "<group>";
+		};
+		E4503C3E1D3528D300F90B1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C3F1D3528D300F90B1A /* WZHChoicenessViewController.swift */,
+				E42F8E8C1D468C2D0054F807 /* WZHDetailViewController.swift */,
+				E42F8E901D468C680054F807 /* WZHDetailViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4503C401D3528D300F90B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E40DA98B1D3533600091D1F7 /* WZHChoicennessItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4503C411D3528D300F90B1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C611D352FEC00F90B1A /* WZHChoicennessViewCell.swift */,
+				E4503C621D352FEC00F90B1A /* WZHChoicennessViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4503C421D3528D300F90B1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C431D3528D300F90B1A /* Controller */,
+				E4503C451D3528D300F90B1A /* Model */,
+				E4503C461D3528D300F90B1A /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E4503C431D3528D300F90B1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C441D3528D300F90B1A /* WZHMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4503C451D3528D300F90B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4503C461D3528D300F90B1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4503C471D3528D300F90B1A /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C481D3528D300F90B1A /* Controller */,
+				E4503C4B1D3528D300F90B1A /* Model */,
+				E4503C4C1D3528D300F90B1A /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		E4503C481D3528D300F90B1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C491D3528D300F90B1A /* WZHMeViewController.swift */,
+				E4503C4A1D3528D300F90B1A /* WZHMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4503C4B1D3528D300F90B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4503C4C1D3528D300F90B1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4503C4D1D3528D300F90B1A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C4E1D3528D300F90B1A /* launchScreen */,
+				E4C0BE311D38D03E00A0EF94 /* types.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E4503C4E1D3528D300F90B1A /* launchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C4F1D3528D300F90B1A /* WZHLaunchView.storyboard */,
+				E4503C501D3528D300F90B1A /* WZHLaunchViewController.swift */,
+			);
+			path = launchScreen;
+			sourceTree = "<group>";
+		};
+		E4503C511D3528D300F90B1A /* Search(探索) */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C521D3528D300F90B1A /* Controller */,
+				E4503C541D3528D300F90B1A /* Model */,
+				E4503C551D3528D300F90B1A /* View */,
+			);
+			path = "Search(探索)";
+			sourceTree = "<group>";
+		};
+		E4503C521D3528D300F90B1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C531D3528D300F90B1A /* WZHSearchViewController.swift */,
+				E4C29E431D381CD000F2C5D6 /* WZHSearchViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4503C541D3528D300F90B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4C0BE2D1D38ACAC00A0EF94 /* WZHSearchItem.swift */,
+				E4FE89E11D38FC04003DF200 /* WZHLifeItem.swift */,
+				E4FE89E31D3907E9003DF200 /* WZHSubjectItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4503C551D3528D300F90B1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4C29E451D38200B00F2C5D6 /* WZHTypeViewCell.swift */,
+				E4C29E191D37842600F2C5D6 /* WZHStaticViewCell.swift */,
+				E4C29E1B1D37843500F2C5D6 /* WZHBottomViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4503C561D3528D300F90B1A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C571D3528D300F90B1A /* WZHHttpTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E45B27261D33D71B00A9422C = {
+			isa = PBXGroup;
+			children = (
+				E45B27311D33D71B00A9422C /* SongGuoLife */,
+				E45B27301D33D71B00A9422C /* Products */,
+				750743F129495B1269B47B20 /* Pods */,
+				1A195B9931DFFCC6473E8687 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E45B27301D33D71B00A9422C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45B272F1D33D71B00A9422C /* SongGuoLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45B27311D33D71B00A9422C /* SongGuoLife */ = {
+			isa = PBXGroup;
+			children = (
+				E4503C371D3528D300F90B1A /* Classes */,
+				E45B27321D33D71B00A9422C /* AppDelegate.swift */,
+				E40D51561D3F973A00F56FA8 /* Assets.xcassets */,
+				E45B27521D34851700A9422C /* LaunchScreen.storyboard */,
+				E45B273E1D33D71B00A9422C /* Info.plist */,
+			);
+			path = SongGuoLife;
+			sourceTree = "<group>";
+		};
+		E4E5281D1D3A6B7100FB9E6A /* WZHBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E4E5281E1D3A6CA600FB9E6A /* WZHBaseViewController.swift */,
+			);
+			path = WZHBaseController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45B272E1D33D71B00A9422C /* SongGuoLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45B27411D33D71B00A9422C /* Build configuration list for PBXNativeTarget "SongGuoLife" */;
+			buildPhases = (
+				04DBFCE51121B26C618975B5 /* [CP] Check Pods Manifest.lock */,
+				E45B272B1D33D71B00A9422C /* Sources */,
+				E45B272C1D33D71B00A9422C /* Frameworks */,
+				E45B272D1D33D71B00A9422C /* Resources */,
+				18F4A5817EAC24CC1D3A4FC9 /* [CP] Embed Pods Frameworks */,
+				45C75D082D7A85F99DA920ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongGuoLife;
+			productName = SongGuoLife;
+			productReference = E45B272F1D33D71B00A9422C /* SongGuoLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45B27271D33D71B00A9422C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZH;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王振晗";
+				TargetAttributes = {
+					E45B272E1D33D71B00A9422C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GSQLARTU74;
+					};
+				};
+			};
+			buildConfigurationList = E45B272A1D33D71B00A9422C /* Build configuration list for PBXProject "SongGuoLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45B27261D33D71B00A9422C;
+			productRefGroup = E45B27301D33D71B00A9422C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45B272E1D33D71B00A9422C /* SongGuoLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45B272D1D33D71B00A9422C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4503C641D352FEC00F90B1A /* WZHChoicennessViewCell.xib in Resources */,
+				E4E528231D3A7A6800FB9E6A /* WZHActivityViewCell.xib in Resources */,
+				E4C0BE321D38D03E00A0EF94 /* types.plist in Resources */,
+				E4C29E441D381CD000F2C5D6 /* WZHSearchViewController.storyboard in Resources */,
+				E42F8E911D468C680054F807 /* WZHDetailViewController.xib in Resources */,
+				E45B27531D34851700A9422C /* LaunchScreen.storyboard in Resources */,
+				E4503C5D1D3528D300F90B1A /* WZHLaunchView.storyboard in Resources */,
+				E40D51571D3F973A00F56FA8 /* Assets.xcassets in Resources */,
+				E4503C5C1D3528D300F90B1A /* WZHMeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DBFCE51121B26C618975B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18F4A5817EAC24CC1D3A4FC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongGuoLife/Pods-SongGuoLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45C75D082D7A85F99DA920ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongGuoLife/Pods-SongGuoLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45B272B1D33D71B00A9422C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4503C631D352FEC00F90B1A /* WZHChoicennessViewCell.swift in Sources */,
+				E40DA98C1D3533600091D1F7 /* WZHChoicennessItem.swift in Sources */,
+				E4C29E471D38200B00F2C5D6 /* WZHTypeViewCell.swift in Sources */,
+				E45B27331D33D71B00A9422C /* AppDelegate.swift in Sources */,
+				E4FE89E21D38FC04003DF200 /* WZHLifeItem.swift in Sources */,
+				E4503C5E1D3528D300F90B1A /* WZHLaunchViewController.swift in Sources */,
+				E4503C5B1D3528D300F90B1A /* WZHMeViewController.swift in Sources */,
+				E4E528221D3A7A6800FB9E6A /* WZHActivityViewCell.swift in Sources */,
+				E4E528251D3A7AD300FB9E6A /* WZHActivityItem.swift in Sources */,
+				E4FE89E41D3907E9003DF200 /* WZHSubjectItem.swift in Sources */,
+				E4503C581D3528D300F90B1A /* WZHActivityViewController.swift in Sources */,
+				E42F8E8E1D468C2D0054F807 /* WZHDetailViewController.swift in Sources */,
+				E4C29E1A1D37842600F2C5D6 /* WZHStaticViewCell.swift in Sources */,
+				E4C0BE2E1D38ACAC00A0EF94 /* WZHSearchItem.swift in Sources */,
+				E4503C5F1D3528D300F90B1A /* WZHSearchViewController.swift in Sources */,
+				E4C29E1C1D37843500F2C5D6 /* WZHBottomViewCell.swift in Sources */,
+				E4503C591D3528D300F90B1A /* WZHChoicenessViewController.swift in Sources */,
+				E4503C5A1D3528D300F90B1A /* WZHMainViewController.swift in Sources */,
+				E4503C601D3528D300F90B1A /* WZHHttpTools.swift in Sources */,
+				E4E5281F1D3A6CA600FB9E6A /* WZHBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E45B273F1D33D71B00A9422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E45B27401D33D71B00A9422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45B27421D33D71B00A9422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00CF49188B7C688C78EDD8B /* Pods-SongGuoLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SongGuoLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhenhan.SongGuoLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E45B27431D33D71B00A9422C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6438F9E56A677320A418EE /* Pods-SongGuoLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SongGuoLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhenhan.SongGuoLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45B272A1D33D71B00A9422C /* Build configuration list for PBXProject "SongGuoLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45B273F1D33D71B00A9422C /* Debug */,
+				E45B27401D33D71B00A9422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45B27411D33D71B00A9422C /* Build configuration list for PBXNativeTarget "SongGuoLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45B27421D33D71B00A9422C /* Debug */,
+				E45B27431D33D71B00A9422C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45B27271D33D71B00A9422C /* Project object */;
+}
